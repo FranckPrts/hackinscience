@@ -1,3 +1,3 @@
-a = ["Hello World", 42]
+a = ["Hello world", 42]
 
 print(a)
