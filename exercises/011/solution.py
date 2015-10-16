@@ -1,5 +1,5 @@
-i = 1
+i = 0
 
 while i < 100:
-	print ("Hello world")
-	i = 1 +i
+    print ("Hello world")
+    i = i + 1
