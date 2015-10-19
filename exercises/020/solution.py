@@ -2,9 +2,16 @@
 
 import sys
 
-a = int(sys.argv[1])
-b = int(sys.argv[2])
+if len(sys.argv) > 1:
 
-r = a - b
+    a = int(sys.argv[1])
+    b = int(sys.argv[2])
 
-print(r)
+    r = a - b
+
+    print(r)   
+	
+else:
+
+
+    print("usage: python3 solution.py OP1 OP2")
