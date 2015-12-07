@@ -1,6 +1,6 @@
 
 def love_meet(bob, alice):
-    return list(set(bob) & set(alice))
+    return set(bob) & set(alice)
 
 
 def affair_meet(bob, alice, silvester):
