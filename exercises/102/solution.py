@@ -1,5 +1,5 @@
 velib = \
-[{      'address': 'RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE) - 93170 BAGNOLET',
+[{  'address': 'RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE) - 93170 BAGNOLET',
         'zip': '93170-',
         'number': 31705, 'latitude': 48.8645278209514, 'city': 'BAGNOLET',
         'name': 'CHAMPEAUX (BAGNOLET)-',
@@ -36,7 +36,6 @@ velib = \
 ]
 
 
-
 def check_my_city(NomDeLaVille):
     a = 0
     code = []
@@ -50,5 +49,5 @@ def check_my_city(NomDeLaVille):
         return "Sorry! No station for your city has been found!"
 
     else:
-        station = {'stations_nb': a,'zip_code': code,'city': NomDeLaVille}
+        station = {'stations_nb': a, 'zip_code': code, 'city': NomDeLaVille}
         return(station)
