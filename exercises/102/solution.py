@@ -24,14 +24,11 @@ velib = \
         'longitude': 2.330493511399174
         },
     {'address': '139 AVENUE JEAN LOLIVE / MAIL CHARLES DE GAULLE\
-         - 93500 PANTIN-',
-        'zip': '93500-',
-        'number': 35014, 
-        'latitude': 48.893268664697416, 
-        'city': 'PANTIN-',
-        'name': 'DE GAULLE (PANTIN)-',
-        'longitude': 2.412715733388685
-        }
+         - 93500 PANTIN-','zip': '935\
+         00-','number': 350\
+         14,'latitude': 48.893268664\
+         697416,'city': 'PANTIN-','name': 'DE GAU\
+         LLE (PANTIN)-','longitude': 2.412715733388685}
 ]
 
 
